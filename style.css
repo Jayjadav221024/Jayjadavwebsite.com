@@ -18,6 +18,7 @@ body{
     background-color: #000;
     overflow: visible;
 }
+
 .navbar{
     height: 40px;
     width: 500px;
@@ -129,6 +130,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 3rem;
     margin-left: 5rem;
     margin-right: 5rem;
     
@@ -937,7 +939,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:  600px;
+    height:  100%;
     overflow: hidden;
 }
 .title-jorney{
@@ -964,6 +966,7 @@ body{
     align-items: center;
     margin-top: 5rem;
     gap: 2rem;
+    /* width: 100%; */
     /* height: 100px; */
 }
 .google-section{
@@ -1618,4 +1621,160 @@ body{
      transform: translateX(-400px);
      transform: rotate(360deg);
     }
+}
+@media screen and (max-width: 576px){
+.header{
+    box-sizing: content-box;
+}
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 95px;
+    /* margin: 5rem; */
+  }
+  .centernav{
+    border-top: 1px solid white;
+     width: 305px;
+  }
+  #line-center{
+    display: none;
+  }
+  .main-content{
+     margin-top: 10rem;
+  }
+  #Tital-name-h2{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  #tital-name-span{
+    font-size: 56px;
+  }
+  #Profesionp-para{
+    margin-top: 1.5rem;
+    width: 400px;
+    font-size: 30px;
+  }
+  .ownimages{
+    margin: 6rem;
+  }
+
+#vote-text-area{
+    width: 350px;
+    font-size: 16px;
+}
+#vtn-a-link{
+    width: 300px;
+}
+.model-conatiner{
+    width: 300px;
+}
+.feture-text{
+    width: 450px;
+    gap: 1rem;
+}
+.feture{
+    font-size: 1px;
+}
+.presiontation{
+    font-size: 1px;
+    height: 20px;
+}
+#p{
+    font-size: 2.1rem;
+}
+#f{
+    font-size: 2.1rem;
+}
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#skill-p{
+    font-size: 0.8rem;
+}
+.skill-img {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.main-div-img{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+}
+#para-journey{
+    font-size: 0.9rem;
+    width: 400px;
+    text-align: justify;
+}
+#journry-h3{
+    font-size: 2.5rem;
+}
+.careercard-section{
+    display: flex;
+    flex-direction: column;
+}
+.google-section{
+    transform: translateY(100px) rotate(-10deg) translateX(-13px);
+     z-index: 1;
+}
+.google-section:hover{
+     transform:  rotate(-0deg)  translateY(50px);
+    
+}
+.google-section2{
+    transform: translateY(90px)  rotate(15deg);
+    z-index: 2;
+}
+.google-section2:hover{
+    transform: translateY(80px)  rotate(5deg);
+    z-index: 2;
+}
+.google-section3 {
+   transform:  translateY(50px) rotate(10deg) translateX(-10px);
+   z-index: 3;
+}
+.google-section3:hover{
+    transform:  translateY(20px) rotate(5deg) translateX(10px);
+}
+.careercard-section {
+    margin-top: 0%;
+    /* width: 100%; */
+}
+body{
+    overflow-x: hidden;
+}
+.main-certificate-dive{
+    display: flex;
+    flex-direction: column;
+}
+.certificate-title-div {
+    width: 480px;
+    margin: 2rem;
+}
+.certificate-title-div p{
+    font-size: 0.9rem;
+}
+.conversation{
+    width: 500px;
+}
+.title-convr h2{
+    font-size: 2.5rem;
+}
+.imge-feddback-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    gap: 0;
+    height: 100%;
+    
+}
 }
