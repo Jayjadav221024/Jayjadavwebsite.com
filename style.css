@@ -4,11 +4,16 @@
 *{
     margin: 0;
     padding: 0%;
+    /* box-sizing: border-box; */
+    /* max-width: 100%; */
 }
-body{
+ html ,body{
     background-color: #000;
     /* overflow-x: hidden; */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    /* overflow-x: hidden; */
+     /* max-width: 100%; */
+    overflow-x: hidden;
 }
     
 .header{
@@ -245,7 +250,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 900px;
+    max-width: 900px; width: 100%;
     height: 300px;
     margin: 6rem auto;
     position: relative;
@@ -257,7 +262,7 @@ body{
     align-items: space-evenly;
     flex-direction: column;
     gap: 9rem;
-    width: 900px;
+    max-width: 900px; width: 100%;
     height: 300px;
     position: relative;
 }
@@ -312,7 +317,7 @@ body{
     transform: rotate(5deg);
 }
 .ownimaage-div{
-     width: 900px;
+     max-width: 900px; width: 100%;
     height: 300px;
     position: relative;
 }
@@ -349,7 +354,7 @@ body{
     
     /* Then move RIGHT */
     100% {
-       transform:  translateX(660px) translateY(-105px) scale(0.9)  rotate(15deg);
+       transform:  translateX(60vw) translateY(-105px) scale(0.9)  rotate(15deg);
         opacity: 1;
     }
 }
@@ -376,7 +381,7 @@ body{
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(560px) translateY(-105px) scale(0.9)  rotate(10deg);
+        transform:  translateX(50vw) translateY(-105px) scale(0.9)  rotate(10deg);
         opacity: 1;
     }
 }
@@ -401,7 +406,7 @@ body{
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(460px) translateY(-110px) scale(0.9)  rotate(5deg);
+        transform:  translateX(40vw) translateY(-110px) scale(0.9)  rotate(5deg);
         opacity: 1;
     }
 }
@@ -427,7 +432,7 @@ body{
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(340px) translateY(-108px) scale(0.9)  rotate(0deg);
+        transform:  translateX(30vw) translateY(-108px) scale(0.9)  rotate(0deg);
         opacity: 1;
     }
 }
@@ -453,7 +458,7 @@ body{
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(220px) translateY(-107px) scale(0.9)  rotate(-5deg);
+        transform:  translateX(20vw) translateY(-107px) scale(0.9)  rotate(-5deg);
         opacity: 1;
     }
 }
@@ -479,7 +484,7 @@ body{
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(100px) translateY(-109px) scale(0.9)  rotate(-7deg);
+        transform:  translateX(10vw) translateY(-109px) scale(0.9)  rotate(-7deg);
         opacity: 1;
     }
 }
@@ -680,7 +685,7 @@ body{
     justify-content: center;
     gap: 3rem;
     padding-top: 7rem;
-    width: 860px;
+    max-width: 860px; width: 100%;
     animation: textaper3 both;
     animation-timeline: view();
 }
@@ -831,7 +836,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 1200px;
+    max-width: 1200px; width: 100%;
     height: 100%;
     gap: 0.3;
 }
@@ -879,7 +884,7 @@ body{
 .main-div-img{
     display: flex;
     justify-content: center;
-    width: 1200px;
+    max-width: 1200px; width: 100%;
     gap: 3rem;
     flex-wrap: wrap;
     /* filter: blur(4px); */
@@ -1313,7 +1318,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 860px;
+    max-width: 860px; width: 100%;
     height: 111px;
     gap: 0.5rem;
 }
@@ -1382,7 +1387,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    width: 800px;
+    max-width: 800px; width: 100%;
 }
 .title-convr h2{
     color: #ffffff;
@@ -1660,6 +1665,7 @@ body{
   }
   .ownimages{
     margin: 6rem;
+    max-width: 900px; width: 100%;
   }
 
 #vote-text-area{
@@ -1775,9 +1781,29 @@ body{
 .footer-container{
     display: flex;
     flex-direction: column;
-    width: 550px;
+    width: 100%;
     gap: 0;
     height: 100%;
     
 }
+@keyframes buszy {
+    /* Start: down */
+    0% {
+        transform: translateY(0px)  rotate(-15deg) ;
+    }
+
+    /* Move UP only */
+    50% {
+        transform:  translateX(0) translateY(0) scale(0.9) rotate(0deg) ;
+        animation-delay: 1s;
+        opacity: 1;
+    }
+    
+    /* Then move RIGHT */
+    100% {
+       transform:  translateX(60vw) translateY(-105px) scale(0.9)  rotate(15deg);
+        opacity: 1;
+    }
+}
+
 }
