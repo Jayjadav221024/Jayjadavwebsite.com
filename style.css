@@ -1623,7 +1623,7 @@ body{
      transform: rotate(360deg);
     }
 }
-@media screen and (max-width: 576px){
+@media screen and (max-width: 420px){
 .header{
     box-sizing: content-box;
 }
