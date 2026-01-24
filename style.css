@@ -1587,7 +1587,7 @@
     align-items:flex-start;
     padding: 2rem;
     width: 500px;
-    margin-left: 6rem;
+    /* margin-left: 6rem; */
     gap: 1rem;
 }
 #fotimg1{
@@ -1648,7 +1648,7 @@
     display: none;
   }
   .main-content{
-     margin: 10rem;
+     margin-top: 10rem;
   }
   #Tital-name-h2{
     font-size: 40px;
@@ -1660,6 +1660,7 @@
   }
   #Profesionp-para{
     margin-top: 1.5rem;
+    margin-left: 2.5rem;
     width: 400px;
     font-size: 30px;
   }
@@ -1668,19 +1669,29 @@
     max-width: 900px; width: 100%;
     /* overflow-x: hidden; */
   }
-
+  .navgation{
+    gap: 0;
+  }
+#nav-p1 {
+    font-size: 1rem;
+    padding: 1rem;
+}
+#nav-p2{
+    font-size: 1rem;
+    padding: 1rem;
+}
 #vote-text-area{
-    width: 350px;
-    font-size: 16px;
+    width: 300px;
+    font-size: 14px;
 }
 #vtn-a-link{
-    width: 300px;
+    width: 250px;
 }
 .model-conatiner{
     width: 300px;
 }
 .feture-text{
-    width: 450px;
+    width: 350px;
     gap: 1rem;
 }
 .feture{
@@ -1691,18 +1702,34 @@
     height: 20px;
 }
 #p{
-    font-size: 2.1rem;
+    font-size: 1.6rem;
 }
 #f{
-    font-size: 2.1rem;
+    font-size: 1.6rem;
 }
 .projects-section{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
+    margin: 2rem;
+    width: 80%;
+}
+.frist-project,.second-project{
+    width: 330px;
+    height: 240px;
+}
+#project-img,#second-img{
+    width: 290px;
+}
+#skill-h3{
+    font-size: 26px;
 }
 #skill-p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+}
+.skill1{
+    width: 300px;
 }
 .skill-img {
     display: flex;
@@ -1712,11 +1739,24 @@
 .main-div-img{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: min-content;
+}
+.maindiv-extend{
+    width: 330px;
+}
+.paradiv {
+    width: 330px;
+}
+.main-div-img1{
+     width: 330px;
+}
+#imgae1{
+    width: 330px;
 }
 #para-journey{
     font-size: 0.9rem;
-    width: 400px;
+    width: 330px;
     text-align: justify;
 }
 #journry-h3{
@@ -1729,6 +1769,8 @@
 .google-section{
     transform: translateY(100px) rotate(-10deg) translateX(-13px);
      z-index: 1;
+     width: 270px;
+     height: 320px;
 }
 .google-section:hover{
      transform:  rotate(-0deg)  translateY(50px);
@@ -1737,6 +1779,8 @@
 .google-section2{
     transform: translateY(90px)  rotate(15deg);
     z-index: 2;
+    width: 270px;
+    height: 320px;
 }
 .google-section2:hover{
     transform: translateY(80px)  rotate(5deg);
@@ -1745,13 +1789,31 @@
 .google-section3 {
    transform:  translateY(50px) rotate(10deg) translateX(-10px);
    z-index: 3;
+   width: 270px;
+   height: 320px;
 }
 .google-section3:hover{
     transform:  translateY(20px) rotate(5deg) translateX(10px);
 }
+#text-connecton{
+    font-size: 4rem;
+}
+#text-connecton1 {
+     font-size: 3.5rem;
+}
+#para-title-connct{
+    width: 330px;
+    font-size: 1rem;
+}
 .careercard-section {
     margin-top: 0%;
     /* width: 100%; */
+}
+.connect{
+    gap: 0.4rem;
+}
+.followme{
+    margin-top: 4rem;
 }
 body{
     overflow-x: hidden;
@@ -1760,19 +1822,41 @@ body{
 .main-certificate-dive{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
-.certificate-title-div {
-    width: 480px;
+.certificate-title-div h3 {
+    width: 330px;
     margin: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.certificate-spotlight{
+    gap: 7rem;
+}
+#cerificae-imge-first-div{
+    width: 340px;
+}
+.para-certificate{
+    width: 340px;
 }
 .certificate-title-div p{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 .conversation{
     width: 500px;
 }
 .title-convr h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+.para-convr p{
+    font-size: 0.8rem;
+    width: 340px;
+}
+#btn-insta-co{
+    padding: 0.5rem;
+}
+#btn-a{
+    font-size: 0.8rem;
 }
 .imge-feddback-section {
     display: flex;
@@ -1782,10 +1866,94 @@ body{
 .footer-container{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
+    width: 500px;
     gap: 0;
     height: 100%;
     
+}
+.right-div{
+    width: 600px;
+    align-items: center;
+}
+.model-3d {
+    height: 200px;
+    width: 300px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.left-div{
+    /* display: none; */
+    /* display: none; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#img1{
+    width: 200px;
+    height: 200px;
+}
+.imag1{
+    transform: translateX(600px) translateY(199px);
+}
+.imag3 {
+    transform: rotate(10deg) translateY(100px) translateX(500px);
+}
+#img3{
+    width: 150px;
+    height: 100px;
+}
+.imag4 {
+    transform: rotate(-20deg) translateY(250px) translateX(700px);
+}
+#img4{
+     width: 100px;
+    height: 150px;
+}.imag6 {
+    transform: rotate(10deg) translateY(-250px) translateX(200px);
+}
+#img6{
+    width: 100px;
+    height: 150px;
+}
+.imag5{
+    transform: rotate(0deg) translateY(-460px) translateX(370px);
+}
+#img5{
+    width: 100px;
+    height: 150px;
+}
+}
+.imag7{
+    transform: rotate(10deg) translateY(-100px) translateX(-200px);
+}
+#img7{
+    width: 100px;
+    height: 150px;
+}
+.imag9 {
+    transform: rotate(-1deg) translateY(-399px) translateX(-570px);
+}
+#img9{
+    width: 100px;
+    height: 150px;
+}
+
+.spotify-song{
+    transform: translateX(-750px);
+    width: 300px;
+}
+#song-img {
+    width: 44px;
+    height: 44px;
+}
+#name-song-maker1{
+    font-size: 10px;
+}
+#name-song-maker{
+    font-size: 6px;
+}
+#control{
+    width: 120px;
 }
 @keyframes buszy {
     /* Start: down */
@@ -1944,5 +2112,4 @@ body{
        transform:  translateX(40vw) translateY(-105px) scale(0.9)  rotate(15deg);
         opacity: 1;
     }
-}
 }
