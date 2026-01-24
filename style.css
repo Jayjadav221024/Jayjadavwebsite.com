@@ -354,7 +354,7 @@
     
     /* Then move RIGHT */
     100% {
-       transform:  translateX(60vw) translateY(-105px) scale(0.9)  rotate(15deg);
+       transform:  translateX(660px) translateY(-105px) scale(0.9)  rotate(15deg);
         opacity: 1;
     }
 }
@@ -381,7 +381,7 @@
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(50vw) translateY(-105px) scale(0.9)  rotate(10deg);
+        transform:  translateX(560px) translateY(-105px) scale(0.9)  rotate(10deg);
         opacity: 1;
     }
 }
@@ -406,7 +406,7 @@
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(40vw) translateY(-110px) scale(0.9)  rotate(5deg);
+        transform:  translateX(460px) translateY(-110px) scale(0.9)  rotate(5deg);
         opacity: 1;
     }
 }
@@ -432,7 +432,7 @@
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(30vw) translateY(-108px) scale(0.9)  rotate(0deg);
+        transform:  translateX(340px) translateY(-108px) scale(0.9)  rotate(0deg);
         opacity: 1;
     }
 }
@@ -458,7 +458,7 @@
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(20vw) translateY(-107px) scale(0.9)  rotate(-5deg);
+        transform:  translateX(220px) translateY(-107px) scale(0.9)  rotate(-5deg);
         opacity: 1;
     }
 }
@@ -484,7 +484,7 @@
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(10vw) translateY(-109px) scale(0.9)  rotate(-7deg);
+        transform:  translateX(100px) translateY(-109px) scale(0.9)  rotate(-7deg);
         opacity: 1;
     }
 }
@@ -1666,7 +1666,7 @@
   .ownimages{
     margin: 6rem;
     max-width: 900px; width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 
 #vote-text-area{
@@ -1806,5 +1806,143 @@ body{
         opacity: 1;
     }
 }
+@keyframes buszy6 {
+    /* Start: down */
+    0% {
+        transform:  translateX(0) rotate(-15deg) ;
+        opacity: 0;
+    }
 
+    /* Move UP only */
+    50% {
+        transform:  translateX(0) translateY(0) scale(0.9) rotate(0deg) ;
+        animation-delay: 1s;
+        opacity: 1;
+    }
+    
+    /* Then move RIGHT */
+    100% {
+        transform:  translateX(-40vw) translateY(-78px) scale(0.9)  rotate(-10deg);
+        opacity: 1;
+    }
+}
+@keyframes buszy5 {
+    /* Start: down */
+    0% {
+        transform:  translateX(0) rotate(-15deg) ;
+        opacity: 0;
+    }
+
+    /* Move UP only */
+    50% {
+        transform:  translateX(0) translateY(0) scale(0.9) rotate(0deg) ;
+        animation-delay: 1s;
+        opacity: 1;
+    }
+    
+    /* Then move RIGHT */
+    100% {
+        transform:  translateX(-20vw) translateY(-109px) scale(0.9)  rotate(-7deg);
+        opacity: 1;
+    }
+}
+@keyframes buszy4 {
+    /* Start: down */
+    0% {
+        transform:  translateX(0) rotate(-15deg) ;
+        opacity: 0;
+    }
+
+    /* Move UP only */
+    50% {
+        transform:  translateX(0) translateY(0) scale(0.9) rotate(0deg) ;
+        animation-delay: 1s;
+        opacity: 1;
+    }
+    
+    /* Then move RIGHT */
+    100% {
+        transform:  translateX(0vw) translateY(-107px) scale(0.9)  rotate(-5deg);
+        opacity: 1;
+    }
+}
+@keyframes buszy3 {
+    /* Start: down */
+    0% {
+        transform:  translateX(0) rotate(-15deg) ;
+        opacity: 0;
+    }
+
+    /* Move UP only */
+    50% {
+        transform:  translateX(0) translateY(0) scale(0.9) rotate(0deg) ;
+        animation-delay: 1s;
+        opacity: 1;
+    }
+    
+    /* Then move RIGHT */
+    100% {
+        transform:  translateX(10vw) translateY(-108px) scale(0.9)  rotate(0deg);
+        opacity: 1;
+    }
+}
+@keyframes buszy2 {
+    /* Start: down */
+    0% {
+        transform:  translateX(0) rotate(-15deg) ;
+        opacity: 0;
+    }
+
+    /* Move UP only */
+    50% {
+        transform:  translateX(0) translateY(0) scale(0.9) rotate(0deg) ;
+        animation-delay: 1s;
+        opacity: 1;
+    }
+    
+    /* Then move RIGHT */
+    100% {
+        transform:  translateX(20vw) translateY(-108px) scale(0.9)  rotate(0deg);
+        opacity: 1;
+    }
+}
+@keyframes buszy1 {
+    /* Start: down */
+    0% {
+        transform:  translateX(0) rotate(-15deg) ;
+        opacity: 0;
+    }
+
+    /* Move UP only */
+    50% {
+        transform:  translateX(0) translateY(0) scale(0.9) rotate(0deg) ;
+        animation-delay: 1s;
+        opacity: 1;
+    }
+    
+    /* Then move RIGHT */
+    100% {
+        transform:  translateX(30vw) translateY(-105px) scale(0.9)  rotate(10deg);
+        opacity: 1;
+    }
+}
+@keyframes buszy {
+    /* Start: down */
+    0% {
+        transform: translateY(0px)  rotate(-15deg) ;
+    }
+
+    /* Move UP only */
+    50% {
+        transform:  translateX(0) translateY(0) scale(0.9) rotate(0deg) ;
+        animation-delay: 1s;
+        opacity: 1;
+    }
+    
+    /* Then move RIGHT */
+    100% {
+       transform:  translateX(40vw) translateY(-105px) scale(0.9)  rotate(15deg);
+        opacity: 1;
+    }
+}
 }
