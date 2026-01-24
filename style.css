@@ -7,8 +7,9 @@
 }
 body{
     background-color: #000;
-    
+    overflow-x: hidden;
 }
+    
 .header{
     /* width: 100vw; */
     /* height: 100vh; */
@@ -1079,7 +1080,7 @@ body{
 .connect{
     /* z-index: 4; */
     /* margin-top: 0; */
-    width: 1380px;              
+    /* width: 1380px;               */
     height: 700px;
     display: flex;
     flex-direction: column;
