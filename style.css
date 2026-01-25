@@ -1747,6 +1747,11 @@
     align-items: center;
     width: min-content;
 }
+#para-for-pre{
+    text-align: center;
+    font-size: 0.8rem;
+    width: 280px;
+}
 .maindiv-extend{
     width: 330px;
 }
