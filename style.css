@@ -484,7 +484,7 @@
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(100px) translateY(-109px) scale(0.9)  rotate(-7deg);
+        transform:  translateX(200px) translateY(-109px) scale(0.9)  rotate(-7deg);
         opacity: 1;
     }
 }
@@ -1608,10 +1608,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .model-3d{
   height: 280px;
     width: 400px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
 }
 .autoroate1{
     animation: roate infinite 10s forwards;
@@ -1723,7 +1728,7 @@
     width: 290px;
 }
 #skill-h3{
-    font-size: 20px;
+    font-size: 26px;
 }
 #skill-p{
     font-size: 0.7rem;
@@ -1785,6 +1790,12 @@
 .google-section2:hover{
     transform: translateY(80px)  rotate(5deg);
     z-index: 2;
+}
+.skill-section{
+    width: 300px;
+}
+#title-skill{
+    font-size: 17px;
 }
 .google-section3 {
    transform:  translateY(50px) rotate(10deg) translateX(-10px);
@@ -1872,9 +1883,13 @@ body{
     height: 100%;
     
 }
-.right-div{
+.right-div {
     width: 600px;
     align-items: center;
+    text-align: center;
+}
+#right-p{
+    text-align: center;
 }
 .model-3d {
     height: 200px;
@@ -1939,7 +1954,7 @@ body{
 }
 
 .spotify-song{
-    transform: translateX(-750px);
+    transform: translateX(-650px);
     width: 300px;
 }
 #song-img {
