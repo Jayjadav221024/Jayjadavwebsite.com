@@ -317,7 +317,7 @@
     transform: rotate(5deg);
 }
 .ownimaage-div{
-     /* max-width: 900px; width: 100%; */
+     max-width: 900px; width: 100%;
     height: 300px;
     position: relative;
 }
@@ -2010,7 +2010,7 @@ body{
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(-40vw) translateY(-78px) scale(0.9)  rotate(-10deg);
+        transform:  translateX(-25vw) translateY(-98px) scale(0.9)  rotate(-10deg);
         opacity: 1;
     }
 }
@@ -2030,7 +2030,7 @@ body{
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(-20vw) translateY(-109px) scale(0.9)  rotate(-7deg);
+        transform:  translateX(-10vw) translateY(-109px) scale(0.9)  rotate(-7deg);
         opacity: 1;
     }
 }
