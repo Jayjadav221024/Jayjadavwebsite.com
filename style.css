@@ -148,20 +148,25 @@
     align-items: center;
     margin: 3rem;
     gap: 1rem;
+     animation: textaper both;
+    animation-timeline: view();
+    animation-delay: 3s;
     /* backdrop-filter: blur(10px); */
 }
 .textapp{
     animation: textaper both;
     animation-timeline: view();
+    animation-delay: 3s;
 }
 @keyframes textaper{
     from{
         opacity: 0;
-        transform: translateY(100px);
+        transform: translateY(400px) ;
+        /* animation-delay: 3s; */
     }
     to{
-        opacity: 1;
-        transform: translateY(0);
+        opacity: 0.7;
+        transform: translateY(0) ;
     }
 }
 #Tital-name-h2{
@@ -273,6 +278,8 @@
     opacity: 0;
     animation: popup 0.6s ease-in-out forwards;
     animation-delay: 2.5s;
+    animation: textaper both;
+    animation-timeline: view();
     /* background-color: antiquewhite; */  
 }
 @keyframes popup{
@@ -333,13 +340,14 @@
 
 .card6{
     animation: buszy 2.5s ease-in-out forwards;
+    animation: buszybom 2.5s ease-in-out forwards;
     transform: rotate(-10deg);
     z-index: 10;
     /* transform: translateY(-100px) translateX(300px); */
     /* position: relative; */
 }
 
-@keyframes buszy {
+@keyframes buszybom {
     /* Start: down */
     0% {
         transform: translateY(0px)  rotate(-15deg) ;
@@ -359,13 +367,15 @@
     }
 }
 .card5{
+   
      animation: buszy1 2.5s ease-in-out forwards;
+      animation: buszybom1 2.5s ease-in-out forwards;
     transform: rotate(-10deg);
     z-index: 9;
     
     
 }
-@keyframes buszy1 {
+@keyframes buszybom1 {
     /* Start: down */
     0% {
         transform:  translateX(0) rotate(-15deg) ;
@@ -412,11 +422,12 @@
 }
 .card3{
      animation: buszy3 2.5s ease-in-out forwards;
+     animation: buszybom4 2.5s ease-in-out forwards;
     transform: rotate(-10deg);
     z-index: 7;
     opacity: 0;
 }
-@keyframes buszy3 {
+@keyframes buszybom4 {
     /* Start: down */
     0% {
         transform:  translateX(0) rotate(-15deg) ;
@@ -432,17 +443,18 @@
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(300px) translateY(-108px) scale(0.9)  rotate(0deg);
+        transform:  translateX(350px) translateY(-108px) scale(0.9)  rotate(0deg);
         opacity: 1;
     }
 }
 .card2{
     animation: buszy4 2.5s ease-in-out forwards;
+    animation: buszybom5 2.5s ease-in-out forwards;
     transform: rotate(-10deg);
     z-index: 6;
     opacity: 0;
 }
-@keyframes buszy4 {
+@keyframes buszybom5 {
     /* Start: down */
     0% {
         transform:  translateX(0) rotate(-15deg) ;
@@ -458,17 +470,18 @@
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(210px) translateY(-107px) scale(0.9)  rotate(-5deg);
+        transform:  translateX(250px) translateY(-110px) scale(0.9)  rotate(-5deg);
         opacity: 1;
     }
 }
 .card1{
     animation: buszy5 2.5s ease-in-out forwards;
+    animation: buszybom6 2.5s ease-in-out forwards;
     transform: rotate(-10deg);
     z-index: 5;
     opacity: 0;
 }
-@keyframes buszy5 {
+@keyframes buszybom6 {
     /* Start: down */
     0% {
         transform:  translateX(0) rotate(-15deg) ;
@@ -484,17 +497,18 @@
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(190px) translateY(-109px) scale(0.9)  rotate(-7deg);
+        transform:  translateX(160px) translateY(-110px) scale(0.9)  rotate(-7deg);
         opacity: 1;
     }
 }
 .card0{
     animation: buszy6 2.5s ease-in-out forwards;
+    animation: buszybom7 2.5s ease-in-out forwards;
     transform: rotate(-10deg);
     z-index: 4;
     opacity: 0;
 }
-@keyframes buszy6 {
+@keyframes buszybom7 {
     /* Start: down */
     0% {
         transform:  translateX(0) rotate(-15deg) ;
@@ -510,7 +524,7 @@
     
     /* Then move RIGHT */
     100% {
-        transform:  translateX(-10px) translateY(-78px) scale(0.9)  rotate(-10deg);
+        transform:  translateX(40px) translateY(-105px) scale(0.9)  rotate(-10deg);
         opacity: 1;
     }
 }
@@ -555,8 +569,9 @@
     text-align: center;
     font-size: 19px;
     font-weight: 480;
-    animation: textaper1 both;
+     animation: textaper1 both;
     animation-timeline: view();
+    animation-delay: 3s;
 }
 
 @keyframes textaper1{
@@ -566,7 +581,7 @@
     }
     to{
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(0px);
     }
 }
 
@@ -1942,7 +1957,7 @@ body{
     width: 100px;
     height: 150px;
 }
-}
+
 .imag7{
     transform: rotate(10deg) translateY(-100px) translateX(-200px);
 }
@@ -2132,4 +2147,25 @@ body{
        transform:  translateX(40vw) translateY(-105px) scale(0.9)  rotate(15deg);
         opacity: 1;
     }
+}
+#project-img{
+  transform: translateY(-200px);
+  animation: moveUpDown linear both;
+  animation-timeline: scroll(y);
+  animation-range: entry 0% exit 70%;
+    /* position: sticky; */
+    /* top: -120px; */
+    /* animation-timeline: view() */
+    /* transform: rotate(15deg) translateY(-200px); */
+}
+@keyframes moveUpDown {
+   from{
+    transform: translateY(-200px);
+    opacity: 1;
+   }
+    to{
+        transform: translateY(0px) ;
+     opacity: 1;
+    }
+}
 }
