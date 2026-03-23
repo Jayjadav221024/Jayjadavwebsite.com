@@ -3,7 +3,6 @@
 #add
 #new one added
 #added
-#adeded
-#added
+#ad
 #added
 #new
